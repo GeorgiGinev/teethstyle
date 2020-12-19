@@ -3,7 +3,13 @@
     font-size: 2.625rem;
     font-weight: bold;
 
-    &.logo-domain {
+
+    .logo-domain {
         color: $primary-color;
+    }
+
+    &:hover {
+        text-decoration: none;
+        color: $tertiary-color;
     }
 }

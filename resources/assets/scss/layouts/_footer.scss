@@ -1,0 +1,57 @@
+.footer {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px 0;
+
+    .logo {
+        color: rgba($tertiary-color, .1);
+
+        .logo-domain {
+            @extend .logo;
+        }
+
+        &:hover {
+            color: rgba($tertiary-color, .1);
+        }
+    }
+
+    .reserved {
+        p {
+            color: rgba($tertiary-color, .5);
+        }
+    }
+
+    .footer-menu {
+        margin: 0;
+        paddin: 0;
+        display: flex;
+        align-self: flex-end;
+        align-items: center;
+        list-style: none;
+
+        li {
+            margin: 0 5px;
+
+            a {
+                color: rgba($tertiary-color, .5);
+                position: relative;
+                text-decoration: none;
+                transition: color $primary-transition ease-in-out;
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    bottom: -3px;
+                    left: 0;
+                    width: 100%;
+                    height: 1px;
+                    background-color: rgba($tertiary-color, .5);
+                }
+
+                &:hover {
+                    color: rgba($tertiary-color, .3);
+                }
+            }
+        }
+    }
+}

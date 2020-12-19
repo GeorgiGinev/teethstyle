@@ -8,11 +8,14 @@
     <title>TeethStyle.com</title>
 </head>
 <body>
-<header class="logo">
-    <a class="logo" title="Logo" href="#">
-        TeethStyle<span class="logo-domain">.COM</span>
-    </a>
-</header>
+    @include('components.header')
+    @include('components.footer')
+
+    <div class="container-sm">
+        @yield('header')
+
+        @yield('footer')
+    </div>
 <script src="{{mix('assets/js/app.js')}}"></script>
 </body>
 </html>
