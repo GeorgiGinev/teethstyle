@@ -1,7 +1,14 @@
 @extends('welcome')
 
 @section('content')
-    <h1>Hello World</h1>
+    <header class="py-4">
+        <h1>
+            @lang('index::content.title')
+        </h1>
+        <span class="subtitle">
+        @lang('index::content.subtitle')
+    </span>
+    </header>
 
     <p>
         This view is loaded from module: {!! config('index.name') !!}

@@ -1,5 +1,6 @@
 body {
     font-family: Roboto, sans-serif;
+    color: $tertiary-color;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, span, b {
@@ -8,11 +9,28 @@ h1, h2, h3, h4, h5, h6, p, a, span, b {
 }
 
 h1 {
-    font-size: 3.375rem;
-    color: $tertiary-color;
+    font-size: 3rem;
+    position: relative;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        height: 2px;
+        max-width: 150px;
+        width: 100%;
+        background-color: $tertiary-color;
+    }
 }
 
 h2 {
-    font-size: 2.625rem;
-    color: $tertiary-color;
+    font-size: 2.25rem;
+}
+
+.subtitle {
+    font-weight: bold;
+    color: $primary-color;
 }
