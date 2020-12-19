@@ -1,0 +1,9 @@
+.logo {
+    color: $tertiary-color;
+    font-size: 2.625rem;
+    font-weight: bold;
+
+    &.logo-domain {
+        color: $primary-color;
+    }
+}

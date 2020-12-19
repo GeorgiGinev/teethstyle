@@ -1,5 +1,5 @@
 {
-    "name": "nwidart/index",
+    "name": "nwidart/terms",
     "description": "",
     "authors": [
         {
@@ -17,9 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/",
-
-            "Modules\\Index\\": ""
+            "Modules\\Terms\\": ""
         }
     }
 }
