@@ -14,7 +14,9 @@
     <div class="container-sm">
         @yield('header')
 
-        @yield('content')
+        <section class="page-container p-4">
+            @yield('content')
+        </section>
 
         @yield('footer')
     </div>
