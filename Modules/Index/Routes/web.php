@@ -1,7 +1,5 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
-use Modules\IndexController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +11,6 @@ use Modules\IndexController;
 |
 */
 
-Route::get('/', function () {
-    return redirect()->action([\Modules\Index\Http\Controllers\IndexController::class, 'index']);
+Route::prefix('index')->group(function() {
+    Route::get('/', 'IndexController@index');
 });
