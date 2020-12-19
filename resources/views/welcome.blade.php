@@ -14,6 +14,8 @@
     <div class="container-sm">
         @yield('header')
 
+        @yield('content')
+
         @yield('footer')
     </div>
 <script src="{{mix('assets/js/app.js')}}"></script>

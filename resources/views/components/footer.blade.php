@@ -1,7 +1,7 @@
 @section('footer')
     <footer class="footer">
         <div class="flex-grow-1">
-            <a class="logo" title="@lang('basic.logo')" href="#">
+            <a class="logo" title="@lang('basic.logo')" href="{{route('index')}}">
                 @lang('basic.website')
             </a>
             <div class="reserved">
@@ -18,7 +18,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" title="@lang('basic.terms_conditions')">
+                    <a href="{{route('termsAndConditions')}}" title="@lang('basic.terms_conditions')">
                         @lang('basic.terms_conditions')
                     </a>
                 </li>

@@ -12,5 +12,5 @@
 */
 
 Route::prefix('terms')->group(function() {
-    Route::get('/', 'TermsController@index');
+    Route::get('/', 'TermsController@index')->name('termsAndConditions');
 });

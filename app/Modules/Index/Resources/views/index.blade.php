@@ -1,4 +1,4 @@
-@extends('index::layouts.master')
+@extends('welcome')
 
 @section('content')
     <h1>Hello World</h1>

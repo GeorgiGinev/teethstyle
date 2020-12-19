@@ -11,6 +11,6 @@
 |
 */
 
-Route::prefix('index')->group(function() {
-    Route::get('/', 'IndexController@index');
+Route::prefix('index')->group(function () {
+    Route::get('/', 'IndexController@index')->name('index');
 });
