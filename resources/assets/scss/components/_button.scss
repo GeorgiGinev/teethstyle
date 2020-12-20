@@ -1,0 +1,47 @@
+.ts-button {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 12px 14px;
+    color: $tertiary-color;
+    border: none;
+    text-transform: uppercase;
+    margin: 15px 0;
+
+    &:hover {
+        color: $tertiary-color;
+        text-decoration: none;
+    }
+
+    &:focus, &:active {
+        border: none;
+        outline: none;
+        box-shadow: none;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.ts-primary-button {
+    @extend .ts-button;
+    width: 100%;
+    background-color: $primary-color;
+    transition: background-color $primary-transition ease-in-out;
+
+    &:hover {
+        background-color: rgba($primary-color, .8);
+    }
+}
+
+.ts-dark-button {
+    @extend .ts-button;
+    width: 100%;
+    background-color: rgba($tertiary-color, 0.1);
+    transition: background-color $primary-transition ease-in-out;
+
+    &:hover {
+        background-color: rgba($tertiary-color, 0.15);
+    }
+}

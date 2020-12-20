@@ -10,4 +10,10 @@
         'benefits_center_content' => 'Helps detoxify your liver and all bodily fluids.',
         'benefits_right_title' => 'Get Strong, Shiny Teeth',
         'benefits_right_content' => 'Look great and feel great with a new confidence and fresh breath.',
+        'subscribe' => 'Subscribe',
+        'subscribe_and_continue' => 'Subscribe and continues',
+        'subscribe_toastr' => 'Subscribe to find out about special offers and discounts.',
+        'subscribe_field_name' => 'Name',
+        'subscribe_field_email' => 'Email Address',
+        'skip' => 'Skip'
     ];
