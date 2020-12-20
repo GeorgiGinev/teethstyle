@@ -1,12 +1,12 @@
 <?php
 
-namespace Modules\Terms\Http\Controllers;
+namespace Modules\Pages\Http\Controllers;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 
-class TermsController extends Controller
+class PagesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,16 @@ class TermsController extends Controller
      */
     public function index()
     {
-        return view('terms::index');
+        return view('pages::index');
+    }
+
+    /**
+     * Display a listing of the resource.
+     * @return Renderable
+     */
+    public function privacy()
+    {
+        return view('pages::privacy');
     }
 
     /**
@@ -23,7 +32,7 @@ class TermsController extends Controller
      */
     public function create()
     {
-        return view('terms::create');
+        return view('pages::create');
     }
 
     /**
@@ -43,7 +52,7 @@ class TermsController extends Controller
      */
     public function show($id)
     {
-        return view('terms::show');
+        return view('pages::show');
     }
 
     /**
@@ -53,7 +62,7 @@ class TermsController extends Controller
      */
     public function edit($id)
     {
-        return view('terms::edit');
+        return view('pages::edit');
     }
 
     /**

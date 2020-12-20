@@ -1,11 +1,11 @@
 <?php
 
-namespace Modules\Terms\Database\Seeders;
+namespace Modules\Pages\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
 
-class TermsDatabaseSeeder extends Seeder
+class PagesDatabaseSeeder extends Seeder
 {
     /**
      * Run the database seeds.

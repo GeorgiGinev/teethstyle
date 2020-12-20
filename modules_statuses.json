@@ -1,4 +1,5 @@
 {
     "Index": true,
-    "Terms": true
+    "Terms": true,
+    "Pages": true
 }

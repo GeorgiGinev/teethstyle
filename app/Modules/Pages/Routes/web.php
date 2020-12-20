@@ -11,6 +11,6 @@
 |
 */
 
-Route::prefix('terms')->group(function() {
-    Route::get('/', 'TermsController@index')->name('termsAndConditions');
+Route::prefix('pages')->group(function() {
+    Route::get('/privacy', 'PagesController@privacy');
 });

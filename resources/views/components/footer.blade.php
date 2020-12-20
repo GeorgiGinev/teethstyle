@@ -18,7 +18,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="{{route('termsAndConditions')}}" title="@lang('basic.terms_conditions')">
+                    <a href="#" title="@lang('basic.terms_conditions')">
                         @lang('basic.terms_conditions')
                     </a>
                 </li>
