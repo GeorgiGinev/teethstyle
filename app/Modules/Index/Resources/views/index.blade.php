@@ -197,7 +197,6 @@
                 @if(Session::has('alert-type'))
                 var type = "{{ Session::get('alert-type', 'info') }}";
 
-                console.log('Type : ', type);
                 switch (type) {
                     case 'success': {
                         toastr.success("@lang('toastr.sub_success')");
