@@ -1,0 +1,10 @@
+.ts-card {
+    margin: 15px 0;
+    border-radius: 0;
+    background-color: $card-color;
+    box-shadow: $primary-boxShadow;
+
+    .card-body {
+        color: $tertiary-color;
+    }
+}
