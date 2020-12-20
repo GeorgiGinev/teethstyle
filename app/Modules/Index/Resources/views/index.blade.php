@@ -114,7 +114,7 @@
                                     <button type="submit"
                                             id="subscribe"
                                             class="ts-dark-button">@lang('index::content.subscribe')</button>
-                                    <a href="#" title="@lang('index::content.skip')"
+                                    <a href="https://96f9ebuavlqz0sa9rb4zu5sb7w.hop.clickbank.net/" title="@lang('index::content.skip')"
                                        class="ts-primary-button">
                                         <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                                         @lang('index::content.skip')</a>
