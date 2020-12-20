@@ -8,6 +8,8 @@ window.jQuery = jQuery;
 import * as popper from 'popper.js';
 window.popper = popper;
 
+import { toastr } from 'toastr/toastr';
+
 document.addEventListener('DOMContentLoaded', function () {
     // Create Swiper Slider
 
@@ -37,4 +39,9 @@ document.addEventListener('DOMContentLoaded', function () {
     scrollToForm.addEventListener('click', function() {
         document.getElementById('subscribeForm').scrollIntoView({behavior: 'smooth'});
     });
+
+    // Toastr click
+    $('.toast-req').addEventListener('click', function() {
+        toastr.info('Are you the 6 fingered man?');
+    })
 });

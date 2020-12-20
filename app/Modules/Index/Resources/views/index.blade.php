@@ -67,6 +67,7 @@
         <section id="subscribeForm" class="my-4 py-4">
             <header class="text-center">
                 <h2>
+                    <a name="buy"></a>
                     @lang('index::content.subscribe_and_continue')
                 </h2>
             </header>
