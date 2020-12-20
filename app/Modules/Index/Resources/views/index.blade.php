@@ -107,9 +107,9 @@
                                 </div>
                                 <div class="flex-grow-0">
                                     <button type="submit"
-                                            class="ts-primary-button">@lang('index::content.subscribe')</button>
+                                            class="ts-dark-button">@lang('index::content.subscribe')</button>
                                     <a href="#" title="@lang('index::content.skip')"
-                                       class="ts-dark-button">@lang('index::content.skip')</a>
+                                       class="ts-primary-button">@lang('index::content.skip')</a>
                                 </div>
                             </form>
                         </div>

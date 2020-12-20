@@ -12,5 +12,7 @@
 */
 
 Route::prefix('pages')->group(function() {
-    Route::get('/privacy', 'PagesController@privacy');
+    Route::get('/privacy', 'PagesController@privacy')->name('pages.privacy');
 });
+
+

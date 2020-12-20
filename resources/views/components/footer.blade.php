@@ -13,7 +13,7 @@
         <div class="flex-grow-0">
             <ul class="footer-menu">
                 <li>
-                    <a href="#" title="@lang('basic.privacy_policy')">
+                    <a href="{{route('pages.privacy')}}" title="@lang('basic.privacy_policy')">
                         @lang('basic.privacy_policy')
                     </a>
                 </li>
