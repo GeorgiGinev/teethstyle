@@ -38,6 +38,7 @@ class IndexController extends Controller
         if ( ! Newsletter::isSubscribed($request->email) ) {
             Newsletter::subscribe($request->email,['FNAME'=>$request->name]);
         }
+        return redirect('/index#buy');
     }
 
     /**
