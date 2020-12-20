@@ -83,6 +83,7 @@
                                 <p>@lang('index::content.subscribe_toastr')</p>
                             </div>
                             <form method="POST" action="/index/subscribe" class="mt-4 d-flex flex-column flex-grow-1">
+                                @csrf
                                 <div class="flex-grow-1">
                                     <div class="form-group">
                                         <label

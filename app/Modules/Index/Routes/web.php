@@ -1,5 +1,5 @@
 <?php
-
+use App\Modules\Index\Http\Controllers\IndexController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,3 +14,7 @@
 Route::prefix('index')->group(function () {
     Route::get('/', 'IndexController@index')->name('index');
 });
+
+//Route::get('search', ['as' => 'search', 'uses' => 'SearchController@search']);
+
+Route::post('/index/subscribe','IndexController@store');

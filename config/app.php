@@ -189,7 +189,8 @@ return [
     */
 
     'aliases' => [
-
+        'Newsletter' => Spatie\Newsletter\NewsletterServiceProvider::class,
+        //'Newsletter' => Spatie\Newsletter\NewsletterFacade,
         'App' => Illuminate\Support\Facades\App::class,
         'Arr' => Illuminate\Support\Arr::class,
         'Artisan' => Illuminate\Support\Facades\Artisan::class,
