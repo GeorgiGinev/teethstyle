@@ -1,0 +1,25 @@
+@import "~swiper/swiper";
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+
+    .swiper-pagination {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .swiper-pagination-bullet {
+            display: block;
+            height: 15px;
+            width: 15px;
+            margin: 0 8px;
+            border-radius: 50%;
+            background-color: rgba($tertiary-color, .05);
+
+            &.swiper-pagination-bullet-active {
+                background-color: rgba($primary-color, .6);
+            }
+        }
+    }
+}

@@ -59,7 +59,6 @@
             </div>
         </section>
 
-
         <section class="my-4 py-4">
             <header class="text-center">
                 <h2>
@@ -118,7 +117,72 @@
                 </div>
             </div>
         </section>
-        <p>
-            This view is loaded from module: {!! config('index.name') !!}
-        </p>
+
+        <section class="my-4 py-4">
+            <header class="text-center">
+            <span class="subtitle italic">
+                @lang('index::content.reasons')
+            </span>
+                <h2>
+                    @lang('index::content.reasons_to_buy')
+                </h2>
+            </header>
+            <div class="py-4">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide h-100">
+                            <div class="card ts-card h-100">
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        @lang('index::content.reasons_first_title')
+                                    </h3>
+                                    <p class="card-text">
+                                        @lang('index::content.reasons_first_content')
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide h-100">
+                            <div class="card ts-card h-100">
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        @lang('index::content.reasons_second_title')
+                                    </h3>
+                                    <p class="card-text">
+                                        @lang('index::content.reasons_second_content')
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide h-100">
+                            <div class="card ts-card h-100">
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        @lang('index::content.reasons_third_title')
+                                    </h3>
+                                    <p class="card-text">
+                                        @lang('index::content.reasons_third_content')
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide h-100">
+                            <div class="card ts-card h-100">
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        @lang('index::content.reasons_fourth_title')
+                                    </h3>
+                                    <p class="card-text">
+                                        @lang('index::content.reasons_fourth_content')
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
 @endsection

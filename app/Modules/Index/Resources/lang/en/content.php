@@ -15,5 +15,19 @@
         'subscribe_toastr' => 'Subscribe to find out about special offers and discounts.',
         'subscribe_field_name' => 'Name',
         'subscribe_field_email' => 'Email Address',
-        'skip' => 'Skip'
+        'skip' => 'Skip',
+        'reasons' => 'Reasons to',
+        'reasons_to_buy' => 'Buy this product',
+        /* First reason to buy */
+        'reasons_first_title' => 'For Yellow, Sensitive Teeth',
+        'reasons_first_content' => 'G-force helps improve the natural defense barrier of your teeth.',
+        /* Second reason to buy */
+        'reasons_second_title' => 'For a Fresher Breath',
+        'reasons_second_content' => 'G-force will help clean your mouth of foul-smell and For yellow-teeth causing bacteria.',
+        /* Third reason to buy */
+        'reasons_third_title' => 'For Gum Irritation',
+        'reasons_third_content' => 'G-force is a natural supplement containing powerful antioxidants that help detoxify your body and allow your gums to health.',
+        /* Fourth reason to buy */
+        'reasons_fourth_title' => 'For a Fresher Breath',
+        'reasons_fourth_content' => 'G-force will help clean your mouth of foul-smell and For yellow-teeth causing bacteria.',
     ];
