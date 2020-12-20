@@ -8,9 +8,9 @@ window.jQuery = jQuery;
 import * as popper from 'popper.js';
 window.popper = popper;
 
-
-
 document.addEventListener('DOMContentLoaded', function () {
+    // Create Swiper Slider
+
     const Swiper = require('swiper/swiper-bundle');
 
     var swiper = new Swiper('.swiper-container', {
@@ -30,5 +30,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 slidesPerView: 3,
             }
         }
+    });
+
+    // Create scroll to
+    let scrollToForm = document.getElementById('scrollToForm');
+    scrollToForm.addEventListener('click', function() {
+        document.getElementById('subscribeForm').scrollIntoView({behavior: 'smooth'});
     });
 });

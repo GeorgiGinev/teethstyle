@@ -13,13 +13,18 @@
 
         <section class="my-4 py-4">
             <header class="text-center">
-            <span class="subtitle italic">
-                @lang('index::content.benefits')
-            </span>
+                <span class="subtitle italic">
+                    @lang('index::content.benefits')
+                </span>
                 <h2>
                     @lang('index::content.benefits_title')
                 </h2>
             </header>
+            <div id="scrollToForm">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+                @lang('index::content.skip')
+            </div>
             <div class="row py-4">
                 <div class="col-12 col-md-6 col-lg-4 px-0 px-sm-3">
                     <div class="card ts-card">
@@ -59,7 +64,7 @@
             </div>
         </section>
 
-        <section class="my-4 py-4">
+        <section id="subscribeForm" class="my-4 py-4">
             <header class="text-center">
                 <h2>
                     @lang('index::content.subscribe_and_continue')
@@ -109,7 +114,9 @@
                                     <button type="submit"
                                             class="ts-dark-button">@lang('index::content.subscribe')</button>
                                     <a href="#" title="@lang('index::content.skip')"
-                                       class="ts-primary-button">@lang('index::content.skip')</a>
+                                       class="ts-primary-button">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        @lang('index::content.skip')</a>
                                 </div>
                             </form>
                         </div>

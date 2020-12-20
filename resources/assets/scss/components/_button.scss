@@ -4,9 +4,12 @@
     text-align: center;
     padding: 12px 14px;
     color: $tertiary-color;
+    font-size: 18px;
     border: none;
     text-transform: uppercase;
     margin: 15px 0;
+    cursor: pointer;
+    user-select: none;
 
     &:hover {
         color: $tertiary-color;
@@ -21,6 +24,11 @@
 
     &:last-child {
         margin-bottom: 0;
+    }
+
+    i {
+        font-size: 21px;
+        color: $tertiary-color;
     }
 }
 
@@ -43,5 +51,18 @@
 
     &:hover {
         background-color: rgba($tertiary-color, 0.15);
+    }
+}
+
+#scrollToForm {
+    @extend .ts-button;
+    background-color: $primary-color;
+    transition: background-color $primary-transition ease-in-out;
+    width: 100%;
+    max-width: 320px;
+    margin: auto;
+
+    &:hover {
+        background-color: rgba($primary-color, .8);
     }
 }
