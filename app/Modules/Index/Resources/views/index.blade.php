@@ -112,6 +112,7 @@
                                 </div>
                                 <div class="flex-grow-0">
                                     <button type="submit"
+                                            id="subscribe"
                                             class="ts-dark-button">@lang('index::content.subscribe')</button>
                                     <a href="#" title="@lang('index::content.skip')"
                                        class="ts-primary-button">
@@ -191,5 +192,27 @@
                 </div>
             </div>
         </section>
+        @push('scripts')
+            <script>
+                @if(Session::has('alert-type'))
+                var type = "{{ Session::get('alert-type', 'info') }}";
 
+                console.log('Type : ', type);
+                switch (type) {
+                    case 'success': {
+                        toastr.success("@lang('toastr.sub_success')");
+                        break;
+                    }
+                    case 'error': {
+                        toastr.error("@lang('toastr.sub_error')");
+                        break;
+                    }
+                    default: {
+                        toastr.warning("@lang('toastr.sub_warning')");
+
+                    }
+                }
+                @endif
+            </script>
+        @endpush
 @endsection

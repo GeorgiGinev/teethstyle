@@ -35,10 +35,16 @@ class IndexController extends Controller
      */
     public function store(Request $request)
     {
+        $notification = array();
+
         if ( ! Newsletter::isSubscribed($request->email) ) {
             Newsletter::subscribe($request->email,['FNAME'=>$request->name]);
+            $notification['alert-type'] = 'success';
+        } else {
+            $notification['alert-type'] = 'error';
         }
-        return redirect('/index#buy');
+
+        return redirect('/index#subscribeForm')->with($notification);
     }
 
     /**

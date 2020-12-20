@@ -1,18 +1,17 @@
 require('./bootstrap');
-import {$,jQuery} from 'jquery';
+import * as $ from 'jquery';
 
 // export for others scripts to use
 window.$ = $;
-window.jQuery = jQuery;
+window.jQuery = $;
 
 import * as popper from 'popper.js';
 window.popper = popper;
 
-import { toastr } from 'toastr/toastr';
+import * as toastr from 'toastr';
+window.toastr = toastr;
 
-document.addEventListener('DOMContentLoaded', function () {
-    // Create Swiper Slider
-
+$(document).ready(() => {
     const Swiper = require('swiper/swiper-bundle');
 
     var swiper = new Swiper('.swiper-container', {
@@ -39,9 +38,4 @@ document.addEventListener('DOMContentLoaded', function () {
     scrollToForm.addEventListener('click', function() {
         document.getElementById('subscribeForm').scrollIntoView({behavior: 'smooth'});
     });
-
-    // Toastr click
-    $('.toast-req').addEventListener('click', function() {
-        toastr.info('Are you the 6 fingered man?');
-    })
-});
+})

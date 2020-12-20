@@ -20,6 +20,7 @@
 
         @yield('footer')
     </div>
-<script src="{{mix('assets/js/app.js')}}"></script>
+    <script src="{{mix('assets/js/app.js')}}"></script>
+    @stack('scripts')
 </body>
 </html>
