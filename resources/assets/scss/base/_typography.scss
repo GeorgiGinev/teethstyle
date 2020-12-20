@@ -61,6 +61,10 @@ p {
     }
 }
 
+.content {
+    line-height: 1.5;
+}
+
 @media (max-width: 380px) {
     h1 {
         font-size: 2.375rem;
