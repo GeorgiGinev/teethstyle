@@ -7,10 +7,9 @@
                 @lang('index::content.title')
             </h1>
             <span class="subtitle">
-            @lang('index::content.subtitle')
-        </span>
+                @lang('index::content.subtitle')
+            </span>
         </header>
-
         <section class="my-4 py-4">
             <header class="text-center">
                 <span class="subtitle italic">
@@ -22,7 +21,6 @@
             </header>
             <div id="scrollToForm">
                 <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-
                 @lang('index::content.skip')
             </div>
             <div class="row py-4">
@@ -67,7 +65,7 @@
         <section id="subscribeForm" class="my-4 py-4">
             <header class="text-center">
                 <h2>
-                    <a name="buy"></a>
+                    <a name="subscription"></a>
                     @lang('index::content.subscribe_and_continue')
                 </h2>
             </header>
