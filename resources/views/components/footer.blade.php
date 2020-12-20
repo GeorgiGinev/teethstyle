@@ -1,5 +1,5 @@
 @section('footer')
-    <footer class="footer">
+    <footer class="footer d-block d-sm-flex">
         <div class="flex-grow-1">
             <a class="logo" title="@lang('basic.logo')" href="{{route('index')}}">
                 @lang('basic.website')

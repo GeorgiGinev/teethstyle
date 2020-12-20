@@ -21,7 +21,7 @@
                 </h2>
             </header>
             <div class="row py-4">
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4 px-0 px-sm-3">
                     <div class="card ts-card">
                         <div class="card-body">
                             <h3 class="card-title">
@@ -33,7 +33,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4 px-0 px-sm-3">
                     <div class="card ts-card">
                         <div class="card-body">
                             <h3 class="card-title">
@@ -45,7 +45,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4 px-0 px-sm-3">
                     <div class="card ts-card">
                         <div class="card-body">
                             <h3 class="card-title">@lang('index::content.benefits_right_title')</h3>
@@ -71,7 +71,7 @@
                          alt="@lang('basic.product')"/>
                 </div>
                 <div class="col-12 col-lg-1"></div>
-                <div class="col-12 col-lg-5">
+                <div class="col-12 col-lg-5 px-0 px-sm-3">
                     <div class="card ts-card h-100">
                         <div class="card-body d-flex flex-column">
                             <div class="card-toastr">
