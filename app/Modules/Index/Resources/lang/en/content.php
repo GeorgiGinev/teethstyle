@@ -15,7 +15,7 @@
         'subscribe_toastr' => 'Subscribe to find out about special offers and discounts.',
         'subscribe_field_name' => 'Name',
         'subscribe_field_email' => 'Email Address',
-        'skip' => 'Skip',
+        'skip' => 'Buy now',
         'reasons' => 'Reasons to',
         'reasons_to_buy' => 'Buy this product',
         /* First reason to buy */
