@@ -17,7 +17,7 @@
         'subscribe_field_email' => 'Email Address',
         'skip' => 'Buy now',
         'reasons' => 'Reasons to',
-        'reasons_to_buy' => 'Buy this product',
+        'reasons_to_buy' => 'Buy g-force whitening product',
         /* First reason to buy */
         'reasons_first_title' => 'For Yellow, Sensitive Teeth',
         'reasons_first_content' => 'G-force helps improve the natural defense barrier of your teeth.',

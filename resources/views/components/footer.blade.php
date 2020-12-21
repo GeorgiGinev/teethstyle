@@ -22,6 +22,11 @@
                         @lang('basic.terms_conditions')
                     </a>
                 </li>
+                <li>
+                    <a href="{{route('pages.sitemap')}}" title="@lang('basic.sitemap')">
+                        @lang('basic.sitemap')
+                    </a>
+                </li>
             </ul>
         </div>
     </footer>
