@@ -5,7 +5,7 @@ namespace Modules\Pages\Http\Controllers;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-
+use Spatie\Sitemap\SitemapGenerator;
 class PagesController extends Controller
 {
     /**
@@ -98,8 +98,8 @@ class PagesController extends Controller
      * Adding SiteMap
      */
     public function sitemap(){
-      /*  $path=array();
-        SitemapGenerator::create('https://example.com')->writeToFile($path);*/
+        SitemapGenerator::create('http://teethstyle.loc')->writeToFile('sitemap.xml');
+
         return view('pages::sitemap');
     }
 }
