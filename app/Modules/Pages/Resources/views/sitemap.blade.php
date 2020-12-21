@@ -7,5 +7,13 @@
                 @lang('pages::sitemap.title')
             </h1>
         </header>
+
+        <div class="content">
+            @foreach($sitemap as $map)
+                <div>
+                    <a name="{{$map->url}}" href="{{$map->url}}">{{$map->url}}</a>
+                </div>
+            @endforeach
+        </div>
     </div>
 @endsection

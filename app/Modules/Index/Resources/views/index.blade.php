@@ -19,14 +19,14 @@
                     @lang('index::content.benefits_title')
                 </h2>
             </header>
+            <div id="scrollToForm">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                @lang('index::content.skip')
+            </div>
             <div class="my-4 d-flex justify-content-center">
                 <iframe width="560" height="315"
                         src="https://www.youtube.com/embed/HFZ-11qNFQo"
                         frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-            <div id="scrollToForm">
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                @lang('index::content.skip')
             </div>
             <p class="my-3 text-center">
                 Naturally white teeth – a desire frequently voiced by your patients. Teeth whitening remains one of the
@@ -245,10 +245,6 @@
                         "reviewCount": "1987"
                     }]
                 }
-
-
-
-
             </script>
     @endpush
 @endsection
