@@ -14,6 +14,7 @@
 Route::prefix('pages')->group(function() {
     Route::get('/privacy', 'PagesController@privacy')->name('pages.privacy');
     Route::get('/terms', 'PagesController@terms')->name('pages.terms');
+    Route::get('/sitemap','PagesController@sitemap')->name('pages.sitemap');
 });
 
 
