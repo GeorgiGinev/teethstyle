@@ -98,8 +98,10 @@ class PagesController extends Controller
      * Adding SiteMap
      */
     public function sitemap(){
-        SitemapGenerator::create('http://teethstyle.loc')->writeToFile('sitemap.xml');
+       $sitemapObject= array(SitemapGenerator::create('http://teethstyle.loc')->writeToFile('sitemap.xml'));
 
-        return view('pages::sitemap');
+       return view('pages::sitemap')->with('sitemapObject',$sitemapObject);
+       //return view('pages::sitemap');
+       //return view('pages::sitemap',['sitemapObject'=>$sitemapObject]);
     }
 }
