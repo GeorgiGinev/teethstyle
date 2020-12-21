@@ -1,6 +1,6 @@
 <?php
     return [
-        'title' => 'Do you care about your smile?',
+        'title' => 'G-Force Teeth - Give Fresh Breath & Healthy Smile!',
         'subtitle' => 'A perfect smile makes the best impression. Feel great and look incredible!',
         'benefits' => 'Benefits',
         'benefits_title' => 'For Your Whole Body',

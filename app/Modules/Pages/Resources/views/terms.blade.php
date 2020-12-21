@@ -3,7 +3,7 @@
 @section('content')
     <header class="my-4 pb-4">
         <h1>
-            @lang('pages::privacy.title')
+            @lang('pages::terms.title')
         </h1>
     </header>
     <div class="content">

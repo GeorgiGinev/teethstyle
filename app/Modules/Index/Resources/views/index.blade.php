@@ -1,7 +1,7 @@
 @extends('welcome')
 
 @section('content')
-    <div class="animate__animated animate__fadeIn">
+    <p class="animate__animated animate__fadeIn">
         <header class="my-4 pb-4">
             <h1>
                 @lang('index::content.title')
@@ -28,7 +28,18 @@
                 <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                 @lang('index::content.skip')
             </div>
-            <div class="row py-4">
+            <p class="my-3 text-center">
+                Naturally white teeth – a desire frequently voiced by your patients. Teeth whitening remains one of the
+                most economical ways to enhance your smile. Be sure to consult with your AACD member cosmetic dentist to
+                learn which whitening treatment is best for you. G-Force Teeth - Want an at-home solution to expensive
+                teeth whitening treatments? Laser teeth whitening is administered in a dental office exclusively, and is
+                the most expensive method for whitening. All forms of teeth whitening work by releasing oxygen ions from
+                a tooth whitening gel, which gently lift stains from the teeth. Another advantage of the laser is that
+                it can more easily be used to bleach one tooth at a time. This is helpful when one tooth is more
+                discolored than the surrounding teeth. There are many over-the-counter teeth whitening options, and one
+                type of readily accessible whitening products is commonly referred to as a “paint-on” teeth whitener.
+            </p>
+            <div class="row">
                 <div class="col-12 col-md-6 col-lg-4 px-0 px-sm-3">
                     <div class="card ts-card">
                         <div class="card-body">
@@ -234,6 +245,7 @@
                         "reviewCount": "1987"
                     }]
                 }
+
 
             </script>
     @endpush
