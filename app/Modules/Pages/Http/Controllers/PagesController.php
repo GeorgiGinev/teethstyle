@@ -94,4 +94,12 @@ class PagesController extends Controller
     {
         //
     }
+    /**
+     * Adding SiteMap
+     */
+    public function sitemap(){
+      /*  $path=array();
+        SitemapGenerator::create('https://example.com')->writeToFile($path);*/
+        return view('pages::sitemap');
+    }
 }
