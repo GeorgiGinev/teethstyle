@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/teethsty/repositories/teethstyle/
-    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
