@@ -12,7 +12,7 @@
             Thank you for choosing to be part of our community at <span class="font-weight-bold">Teethstyle</span>
             ("Company", "we", "us", "our"). We are committed to protecting your personal information and your right to
             privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to
-            your personal information, please contact us at <span class="font-weight-bold">admin@teethstyle.com</span>.
+            your personal information, please contact us at <span class="font-weight-bold">info@teethstyle.com</span>.
             <br/>
             <br/>
             <br/>
@@ -466,7 +466,7 @@
             More information about our data collection and sharing practices can be found in this privacy notice.
             <br/>
             <br/>
-            You may contact us by email at admin@teethstyle.com, or by referring to the contact details at the bottom of
+            You may contact us by email at info@teethstyle.com, or by referring to the contact details at the bottom of
             this document.
             <br/>
             <br/>
@@ -575,7 +575,7 @@
                 </li>
             </ul>
             <br/>
-            To exercise these rights, you can contact us by email at <b><u>admin@teethstyle.com</u></b> or by referring
+            To exercise these rights, you can contact us by email at <b><u>info@teethstyle.com</u></b> or by referring
             to the contact details at the bottom of this document. If you have a complaint about how we handle your
             data, we would like to hear from you.
             <br/>
@@ -596,7 +596,7 @@
             <a name="information_contact"></a>
             <h4 class="text-uppercase">11. @lang('pages::privacy.information_contact')</h4>
             <br/>
-            If you have questions or comments about this notice, you may email us at <b><u>admin@teethstyle.com</u></b>
+            If you have questions or comments about this notice, you may email us at <b><u>info@teethstyle.com</u></b>
         </div>
     </div>
 @endsection
