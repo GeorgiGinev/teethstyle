@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
     <link rel="stylesheet" href="{{asset('assets/css/app.css')}}">
+    <link rel="icon" type="image/png" href="{{asset('favicon.png')}}"/>
     <title>TeethStyle.com</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-K3RQQJW7PZ"></script>
